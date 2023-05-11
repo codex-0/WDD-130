@@ -1,8 +1,37 @@
-.main-para {
-  font-size: 1.5em;
-  line-height: 1.5em;
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
-#id {
+p {
+  width: 80%;
+}
+a {
+  font-size: 1.5em;
+}
+body {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+nav,
+footer {
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+  padding: 1px;
+}
+.main-para {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
   background-color: white;
   color: steelblue;
 }

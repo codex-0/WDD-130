@@ -1,0 +1,70 @@
+img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  background-color: #f0809c;
+  font-family: Arial, Helvetica, sans-serifs;
+}
+.hero {
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serifs;
+  font-size: 15px;
+  color: whitesmoke;
+}
+#name-tag {
+  font-size: bold 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: whitesmoke;
+}
+.listing {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+.name-tag {
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+.quoute {
+  text-align: center;
+  color: white;
+  font: bolder;
+  font-size: 35px;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  text-align: center;
+  width: 0 auto;
+  padding: 1px;
+}
+.prophet {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Church {
+  display: block;
+  width: 28%;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+h1:hover {
+  color: black;
+}

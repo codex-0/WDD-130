@@ -76,17 +76,17 @@ footer a {
   background-color: #63c0f1;
   text-decoration: none;
 }
-footer a:hover {
-  background-color: #63c0f1;
-}
-footer p {
-  font-size: 1.2em;
-}
 footer p a:hover {
   text-decoration: underline;
 }
 .logo {
   width: 80px;
+}
+footer a:hover {
+  background-color: #63c0f1;
+}
+footer p {
+  font-size: 1.2em;
 }
 .icon {
   width: 80px;
@@ -214,3 +214,4 @@ nav {
     margin-top: 25px;
   }
 }
+/* Page2 css*/

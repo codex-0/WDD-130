@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Children Collection</title>
+  </head>
+  <link rel="stylesheet" href="styles/chilfren-collection.css" />
+  <body>
+    <div id="content">
+      <header>
+        <a id="logo_link" href="index.html">
+          <img
+            class="logo"
+            src="images/sitso-logo.jpg"
+            alt="sitso-style-logo"
+          />
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a class="active" href="men-collection.html">Men collection</a>
+          <a href="children-collection.html">Children collection</a>
+        </nav>
+      </header>
+      <section id="hero-msg">
+        <h1 class="home-title">Explore The World Of Fashion</h1>
+        <h4>Welcome To Sitso Styles</h4>
+        <div class="button-box">
+          <a class="share" href="#">Visit Us</a>
+        </div>
+      </section>
+      <h1 class="title">Children Collection</h1>
+      <div id="workspace">
+        <div class="img-slider">
+          <div class="slide active">
+            <img
+              src="images/kids0 (1).png"
+              alt="slide01"
+            />
+            <div class="info">
+              <h2>Slide 01</h2>
+              <p>
+                Beautiful styles and fashion for kids, cut from unique cloths and prints such as African and Morden design
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="images/imageskid (1).png"
+              alt="slide02"
+            />
+            <div class="info">
+              <h2>Slide 02</h2>
+              <p>
+                Beautiful styles and fashion for kids, cut from unique cloths and prints such as African and Morden design
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="images/kids.png"
+              alt="slide03"
+            />
+            <div class="info">
+              <h2>Slide 03</h2>
+              <p>
+                Beautiful styles and fashion for kids, cut from unique cloths and prints such as African and Morden design
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="images/rsz_1rsz_1rsz_african-kids-traditional-clothes-park.jpg"
+              alt="slide04"
+            />
+            <div class="info">
+              <h2>Slide 04</h2>
+              <p>
+                Beautiful styles and fashion for kids, cut from unique cloths and prints such as African and Morden design
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="images/rsz_1rsz_1rsz_close-up-little-girl-portrait-outdoors_1.jpg"
+              alt="slide05"
+            />
+            <div class="info">
+              <h2>Slide 05</h2>
+              <p>
+                Beautiful styles and fashion for kids, cut from unique cloths and prints such as African and Morden design
+              </p>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
+          
+        </div>
+        <script type="text/javascript">
+          var slides = document.querySelectorAll(".slide");
+          var btns = document.querySelectorAll(".btn");
+          let currentSlide = 1;
+
+          // javascript for manual
+          var manualNav = function (manual) {
+            slides.forEach((slide) => {
+              slide.classList.remove("active");
+
+              btns.forEach((btn) => {
+                btn.classList.remove("active");
+              });
+            });
+
+            slides[manual].classList.add("active");
+            btns[manual].classList.add("active");
+          };
+
+          btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+              manualNav(i);
+              currentSlide = i;
+            });
+          });
+        </script>
+      </div>
+    </div>
+    <footer>
+      <p>Sitso-style &copy; 2023</p>
+      <p><a href="site-plan-rafting.html">Site-Plan</a></p>
+      <p><a href="contactus.html">Contact Us</a></p>
+      <div class="social">
+        <a href="https://facebook.com"
+          ><img src="images/facebook.png" alt="facebook icon" />
+        </a>
+        <a href="https://twitter.com">
+          <img src="images/twitter.png" alt="twitter icon" />
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.png" alt="instagram icon" />
+        </a>
+      </div>
+    </footer>
+    </footer>
+  </body>
+</html>
